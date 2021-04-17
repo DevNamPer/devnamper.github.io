@@ -1,1 +1,0 @@
-# devnamper.github.io
