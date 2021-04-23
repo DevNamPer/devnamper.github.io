@@ -1,0 +1,109 @@
+/******************************Reset CSS********************************/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333333;
+    overflow: scroll;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+/******************************End Reset CSS********************************/
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body{
+    font-size: 19px;
+    font-family: 'Avenir', sans-serif;
+    color: #212020;
+    font-weight: 300;
+    text-align: center;
+    background-color: #83d9e0;
+    font-family: 'Original Surfer', cursive;
+}
+
+.cau_hoi {
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: 5px solid #ded04c;
+    border-radius: 20px 20px 0 0;
+    width: 600px;
+    height: 360px;
+    background-color: #ded04c;
+
+}
+
+h1{
+  font-size: 30px;
+  color: #fff;
+  padding-top: 10px;
+}
+.question{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label{
+  display: block;
+  margin-bottom: 15px;
+}
+
+.chuyen_cau {
+    margin: 0px auto;
+    border: 5px solid #ded04c;
+    border-radius: 0 0 20px 20px;
+    width: 600px;
+    height: 90px;
+    background-color: #ded04c;
+}
+
+button {
+  font-family: 'Brandon Grotesque', sans-serif;
+    font-size: 15px;
+    background-color: #fff;
+    color: #212020;
+    border: 0px;
+    border-radius: 20px;
+    padding: 20px;
+    cursor: -webkit-grabbing; cursor: grabbing;
+    margin: 0 auto;
+
+}
+button:hover {
+    background-color: #e5acac;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.active-slide{
+  opacity: 2;
+  z-index: 3;
+}
+.quiz-container{
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+
+
